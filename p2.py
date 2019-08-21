@@ -1,7 +1,7 @@
 try:
 	import mechanize,os,sys,time	
 	print("##################################")
-    print("Creator @Mr.Ti")
+	print("Creator @Mr.Ti")
 	br = mechanize.Browser()
 	br.set_handle_equiv(True)
 	br.set_handle_gzip(True)

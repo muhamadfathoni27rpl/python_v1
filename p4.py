@@ -10,15 +10,15 @@ g=('\033[1;32m')
 w=('\033[1;37m')
 print("##################################")
 print("Creator @Mr.Ti")
-no = input(" Nomer Hp 08 => %s")
-noo = input("%s Nomer Hp 08 => %s")
-nooo = input("%s Nomer Hp 08 => %s")
-delay=int(input("%s Delay ne Bro => %s"))
+no = input(" Nomer Hp 62  ")
+noo = input(" Nomer Hp 62  ")
+nooo = input(" Nomer Hp 62  ")
+delay=int(input(" Delay ne Bro => "))
 
 try:
 	henti_tanya=False
 	forcecon=0
-	print("\n%s RESULT:%s"%(r,w));time.sleep(1)
+	print("\n%s SMK Telkom Malang %s"%(r,w));time.sleep(1)
 	for i in range(delay):
 		cout=1
 		print(f"{'{'}{i+1}{'}'}"+"="*40+f"{'{'}{i+1}{'}'}")
@@ -49,9 +49,9 @@ try:
 						if forcecon >= 3:
 							print(f" {c}f{w}")
 			elif "challengeID" in r1.text:
-				print(f" {c} {cout} {g}BERHASIL{w}")
+				print(f" {c} {cout} {g}[][][][][][][][][][][]:: Terkirim bos ku ::[][][][][][][][][][][]{w}")
 			else:
-				print(f" {c} {cout} {r}GAGAL{w}")
+				print(f" {c} {cout} {r}[][][][][][][][][][][]:: Gagal bos ku ::[][][][][][][][][][][]{w}")
 			time.sleep(10)
 			cout+=1
 	print("{end}"+"="*40+"{end}")

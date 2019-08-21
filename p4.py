@@ -49,9 +49,9 @@ try:
 						if forcecon >= 3:
 							print(f" {c}f{w}")
 			elif "challengeID" in r1.text:
-				print(f" {c} {cout} {g}[][][][][][][][][][][]:: Terkirim bos ku ::[][][][][][][][][][][]{w}")
+				print(f" {c} {cout} {g}[][][][][][][][][][]:: Terkirim bos ku ::[][][][][][][][][][]{w}")
 			else:
-				print(f" {c} {cout} {r}[][][][][][][][][][][]:: Gagal bos ku ::[][][][][][][][][][][]{w}")
+				print(f" {c} {cout} {r}[][][][][][][][][][]:: Gagal bos ku ::[][][][][][][][][][]{w}")
 			time.sleep(10)
 			cout+=1
 	print("{end}"+"="*40+"{end}")

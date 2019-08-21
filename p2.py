@@ -19,8 +19,8 @@ try:
 		res=br.submit().read()
 		#print(res)
 		if 'confirmotp' in str(res):
-			print(i+1,"[][][][][][][][][][][]:: Terkirim bos ku ::[][][][][][][][][][][]")
-		else: print(i+1,"[][][][][][][][][][][]:: Gagal bos ku ::[][][][][][][][][][][]")
+			print(i+1,"[][][][][][][][][][]:: Terkirim bos ku ::[][][][][][][][][][]")
+		else: print(i+1,"[][][][][][][][][][]:: Gagal bos ku ::[][][][][][][][][][]")
 		#return True
 	no=int(input("Nomer Hape 08"))
 	jlm=int(input("Delay ne Bos ku "))

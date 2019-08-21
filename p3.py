@@ -8,9 +8,9 @@ while True:
 	idk=('status')
 	r=requests.get('https://www.oyorooms.com/api/pwa/generateotp?phone='+no+'&country_code=+62')
 	if str(idk) in str(r.text):
-		print("[][][][][][][][][][][]:: Terkirim bos ku ::[][][][][][][][][][][]")
+		print("[][][][][][][][][][]:: Terkirim bos ku ::[][][][][][][][][][]")
 	else:
-		print("[][][][][][][][][][][]:: Gagal bos ku ::[][][][][][][][][][][]")
+		print("[][][][][][][][][][]:: Gagal bos ku ::[][][][][][][][][][]")
 		print("Pesan # Nomer Hape uwes LIMIT")
 		break
 	i+=1

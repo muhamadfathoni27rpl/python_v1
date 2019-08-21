@@ -25,9 +25,9 @@ def main(arg):
 		kirim = requests.post('https://p.grabtaxi.com/api/passenger/v2/profiles/register', data={'phoneNumber':hape, 'countryCode': 'ID', 'name': 'nuubi', 'email': 'nuubi@mail.com', 'deviceToken': '*'}, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36'})
 #		print(r.text)
 		if str(nomerewong) in str(kirim.text):
-			print(" [][][][][][][][][][][]:: Terkirim bos ku ::[][][][][][][][][][][]")
+			print(" [][][][][][][][][][]:: Terkirim bos ku ::[][][][][][][][][][]")
 		else:
-			print(" [][][][][][][][][][][]:: EROR bos ku ::[][][][][][][][][][][]")
+			print(" [][][][][][][][][][]:: EROR bos ku ::[][][][][][][][][][]")
 	except: pass
 
 jobs = []
